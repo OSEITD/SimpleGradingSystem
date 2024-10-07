@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/mmm">
+
+    <EditText
+        android:id="@+id/editStudentId"
+        android:layout_width="369dp"
+        android:layout_height="76dp"
+        android:hint="Student ID"
+        android:inputType="text"
+        android:textColor="#F8EFEF"
+        android:textColorHint="#FDF7F7"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/editSubject"
+        android:layout_width="377dp"
+        android:layout_height="69dp"
+        android:baselineAligned="false"
+        android:hint="Subject"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editGrade"
+        android:layout_width="377dp"
+        android:layout_height="74dp"
+        android:hint="Grade"
+        android:inputType="text"
+        android:textColorHint="#EFEBEB"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnAddGrade"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Add Grade" />
+
+</LinearLayout>
